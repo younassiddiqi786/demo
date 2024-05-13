@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#myVideo{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}    
+/* NavBar CSS Code*/ 
+.navBar
+{
+  
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(118, 122, 251);
+}
+.logo, .menu, .btn-signUp
+{
+    display: inline;
+   
+}
+.menu{
+    margin-left: 250px;
+    
+}
+.logo img
+{
+    width: 40px;
+    height: 25px;
+}
+.logo h1
+{
+    display: inline;
+    cursor: pointer;
+}
+.logo h1:hover{
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.menu li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+}
+li a:hover{
+    color: red;
+    
+    
+}
+.btn-signUp
+{
+    display: inline;
+    margin-left: 130px;
+    
+}
+.btn-signUp button{
+    padding: 15px 20px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn-signUp button:hover{
+    background-color: #000;
+    color: white;
+
+}
+
+/* Hero Section Code For CSS */
+.heroSection
+{
+    background: url("../images/devops.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+} 
+.heroSection h1{
+    font-size: 120px;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+    text-align: center;
+
+}
+.heroSection .para
+{
+    width: 60%;
+    font-size: 40px;
+    color: rgb(36, 69, 2);
+    line-height: 1.9;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+/* About DevOps code For CSS*/
+.about-DevOps
+{
+    width: 80%;
+    background-color: rgb(203, 234, 233);
+    margin: auto;
+    padding: 30px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+.about-DevOps .param
+{
+    font-size: 24px;
+    line-height: 1.9;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+.about-DevOps .about-Heading
+{
+   text-align: center;
+   color: rgb(1, 44, 44);
+   text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    
+}
+/* DevOps Engineer Roles & Mission CSS Code*/
+.mission-para
+{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    background: rgb(65, 65, 106);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    margin-top: 150px;
+}
+.mission-para h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.mission-para p{
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 1.9;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* DevOps Tools CSS Code*/
+.devOps-tools
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: cornflowerblue;
+    border-radius: 35px;
+   padding: 20px;
+}
+.devOps-tools h1{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.devOps-tools img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.devOps-tools img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+    
+}
+/* DevOps Products CSS Code*/
+.products
+{
+    display: flex;
+}
+.products .cards
+{
+    width: 350px;
+    height: 250px;
+    margin-top: 150px;
+    padding: 15px;
+    margin-left: 15px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(100, 35, 0,0.6);
+}
+.products img
+{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 10px 10px;
+}
+.products h2
+{
+    color: #fff;
+    margin-left: 70px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/* Contact Us Form CSS Code*/
+.contactForm form
+{
+    width: 50%;
+    background-color: rgb(206, 245, 245);
+    border: 2px double black;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+.contactForm form input
+{
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+form textarea
+{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Footer CSS Code*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #000;
+    padding: 50px;
+}
+footer p
+{
+    color: wheat;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer p span
+{
+    color:red;
+}
+
+
